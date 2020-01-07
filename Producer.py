@@ -2,9 +2,9 @@ from confluent_kafka import Producer
 from random import choice
 from time import sleep
 
-Phones = ['Samsung galaxy 9', 'Apple iphone 11', 'Huwai P30']
+Phones = ['Samsung galaxy 9', 'Apple iphone 11', 'Huwai P30']  #Phones
 
-p = Producer({'bootstrap.servers': 'localhost:9092'})
+p = Producer({'bootstrap.servers': 'localhost:9092'}) #Producer parameters
 
 def delivery_report(err, msg):
     """ Called once for each message produced to indicate delivery result.
