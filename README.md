@@ -12,13 +12,14 @@ The Producer is a Kafka producer. I use the confluent-kafka python API.
 
 The Kafka version I use is 2.12-2.3.0.
 
-The Spark version I use is 2.4.4-bin-hadoop2.7 and for the streaming processing I use the spark streaming API.
+The Spark version I use is 2.3.0-bin-hadoop2.7 and for the streaming processing I use the spark streaming API.
 
+The python version I use is 3.6.9
 
 
 # Example
 
-Below is a example from the beginning, where the Producer published messages to the Kafka, to the moment in which the Spark app consumes the messages and process them. The messages that the Producer published, each contain a name of a phone.
+Below is a example from the beginning, where the Producer published messages to the Kafka, to the moment in which the Spark programm consumes the messages and process them. The messages that the Producer published, each contains a name of a phone.
 
 Figure 1.2 shows tha Kafka saved succesfully the messages that the Producer send. The messages that the Producer send were fifteen.
 
@@ -26,7 +27,7 @@ Figure 1.2 shows tha Kafka saved succesfully the messages that the Producer send
 
 
 
-Next, Figure 1.3 shows the messages that are saved in the topic 'Test' of Kafka, in which the Producer publish the messages. 
+Next, Figure 1.3 shows the messages that are saved in the topic 'Test' of Kafka, in which the Producer publishes the messages. 
 
 <img src="images/Topic.png">Figure 1.3 Messages saved in the topic 'Test' of Kafka
 
@@ -36,4 +37,4 @@ The Spark programm, which use spark streaming, uses a tumbling window of four se
 
 <img src="images/SparkStreaming.png">Figure 1.4 Spark programm execution
 
-From the result of the MapReduce of the firsts grouped messages we can understand that there were two messaged. One Huwai P30 and one Samsung galaxy 9. Next, from the result of the MapReduce of the seconds grouped messages we can understand that there were four messaged. Two Samsung galaxy 9 and two Apple iphone 11. The same way we analyze the nexts results of the MapReduces.
+From the result of the MapReduce of the first grouped messages we can understand that there were two messaged. One Huwai P30 and one Samsung galaxy 9. Next, from the result of the MapReduce of the second grouped messages we can understand that there were four messaged. Two Samsung galaxy 9 and two Apple iphone 11. The same way we analyze the nexts results of the MapReduces.
