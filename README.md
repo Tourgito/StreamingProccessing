@@ -1,9 +1,9 @@
 # StreamingProcessing
 Streaming processing using Spark and Kafka
 
-This is an example of streaming processing using Apache Spark consuming data from Apache Kafka. The figure 1.1 shows the data-flow.
+This is an example of streaming processing using Apache Spark consuming data from Apache Kafka. The figure 1.1 shows the data-flow.<br>
 
-<img src="images/Architect.png">Figure 1.1 Architecture of data-flow
+<img src="images/Architect.png"><b>Figure 1.1 Architecture of data-flow<b>
 
 On the left is a Producer, who produces messages to Kafka. In the middle is Kafka and on the right is the Spark programm.
 
@@ -22,7 +22,7 @@ Below is a example from the beginning, where the Producer published messages to 
 
 Figure 1.2 shows tha Kafka saved succesfully the messages that the Producer send. The messages that the Producer send were fifteen.
 
-<img src="images/Producer.png">Figure 1.2 Producer produces messages to Kafka
+<img src="images/Producer.png"><br>Figure 1.2 Producer produces messages to Kafka
 
 
 
