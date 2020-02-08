@@ -1,7 +1,7 @@
-# StreamingProcessing
-Streaming processing using Spark and Kafka
+# StreamProcessing
+Stream processing using Spark and Kafka
 
-This is an example of streaming processing using Apache Spark consuming data from Apache Kafka. The figure 1.1 shows the data-flow.<br>
+This is an example of stream processing using Apache Spark consuming data from Apache Kafka. The figure 1.1 shows the data-flow.<br>
 
 <img src="images/Architect.png"><b>Figure 1.1 Architecture of data-flow</b>
 
