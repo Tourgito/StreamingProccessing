@@ -1,4 +1,4 @@
-# StreamProcessing
+# Stream Processing
 Stream processing using Spark and Kafka
 
 This is an example of stream processing using Apache Spark consuming data from Apache Kafka. The figure 1.1 shows the data-flow.<br>
